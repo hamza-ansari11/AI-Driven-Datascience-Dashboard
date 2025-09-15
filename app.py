@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd 
 import numpy as np 
-from utils.data_utils import load_data, clean_data
-from utils.visualization_utils import plot_correlation, plot_pairplot, plot_regression_line, plot_residuals
-from utils.model_utils import train_linear_regression, evaluate_model
+from data_utils import load_data, clean_data
+from visualization_utils import plot_correlation, plot_pairplot, plot_regression_line, plot_residuals
+from model_utils import train_linear_regression, evaluate_model
 
 # Set the app title and description
 st.title("Interactive Data Science Dashboard")
@@ -73,3 +73,4 @@ if uploaded_file:
                 plot_residuals(y, predictions)
 else:
     st.write("Upload a CSV file to get started!")
+
