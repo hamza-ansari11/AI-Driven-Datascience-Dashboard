@@ -1,7 +1,8 @@
 # AI-Driven Data Science Dashboard 📊🤖
 
 ## 📌 Overview
-This project is an AI-powered dashboard that analyzes datasets and generates insights using data visualization and machine learning techniques.
+This project is a no-code AI-powered data analysis dashboard designed for non-technical users. 
+It allows anyone to upload a dataset, visualize trends, and generate insights without needing programming knowledge.
 
 ## 🎯 Objective
 To build an interactive dashboard that helps users understand data trends, patterns, and key insights efficiently.
