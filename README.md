@@ -27,7 +27,6 @@ project-folder/
 │
 ├── data/
 ├── notebook.ipynb
-├── app.py / dashboard.pbix
 └── README.md
 
 
